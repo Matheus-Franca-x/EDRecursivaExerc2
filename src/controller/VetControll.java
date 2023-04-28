@@ -18,14 +18,9 @@ public class VetControll
 		
 		int guardaValor = vetMenor(vet, tamanho - 1); //ira guardar o valor do return anterior
 		
-		if(guardaValor > vet[tamanho]) //caso o valor guardado da ultima recursiva seja maior 
-		{							   //que o valor guardado da recursiva em execucao
-			return vet[tamanho];
-		}
-		else //Caso nao seja, ele retornara o valor normal, sendo o menor do vetor
-		{
-			return guardaValor;
-		}
+		return guardaValor > vet[tamanho] ? vet[tamanho] : guardaValor;
 		
+		//caso o valor guardado da ultima recursiva seja maior que o valor guardado da recursiva em execucao
+		//caso nao seja, ele retornara o valor normal, sendo o menor do vetor
 	}
 }

@@ -8,7 +8,7 @@ public class Main {
 	{
 		//a main, onde sera executado todo o processo para iniciar a recursiva
 		
-		int[] vet = {15, 53, 25, 23, 12}; // valores guardados
+		int[] vet = {15, 53, -5, 23, 10}; // valores guardados
 		
 		VetControll vetControll = new VetControll();
 		
